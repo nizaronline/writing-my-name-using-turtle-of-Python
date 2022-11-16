@@ -4,12 +4,11 @@
 from turtle import *
 
 # defining the screen
-screen=turtle.Screen()
-bgcolor("white")
-
+screen=Screen()
+screen.bgcolor("white")
+screen.title("writing my name")
 
 # defining the turtle as the object which makes the drawing
-turtle.Turtle()
 color("black")
 size(1)
 speed(1)
