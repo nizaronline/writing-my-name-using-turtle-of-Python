@@ -13,6 +13,7 @@ color("black")
 speed(1)
 penup()
 
+mode("logo")
 
 
 
