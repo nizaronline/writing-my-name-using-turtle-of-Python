@@ -10,7 +10,6 @@ screen.title("writing my name")
 
 # defining the turtle as the object which makes the drawing
 color("black")
-size(1)
 speed(1)
 penup()
 
