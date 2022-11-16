@@ -8,3 +8,13 @@ screen=turtle.Screen()
 bgcolor("white")
 
 
+# defining the turtle as the object which makes the drawing
+turtle.Turtle()
+color("black")
+size(1)
+speed(1)
+penup()
+
+
+
+
