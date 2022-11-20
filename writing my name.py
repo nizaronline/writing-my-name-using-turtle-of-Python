@@ -15,6 +15,12 @@ penup()
 
 mode("logo")
 
+# drawing the letter N, first part
+
+# moving the turtle to a start point, located at the left edge of the screen
+goto (300,0)
+
+
 
 
 
