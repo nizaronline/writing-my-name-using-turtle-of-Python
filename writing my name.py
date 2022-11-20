@@ -27,16 +27,16 @@ end_fill() #filling the drawing after the lines have been closed
 penup() # ordering the turtle to not to draw
 
 # drawing the letter N, second part
-goto (-305,300) # moving the turtle to th top part so it starts drawing from there
+goto (-310,300) # moving the turtle to th top part so it starts drawing from there
 
 begin_fill()
-right(155)  # in this case, i need to change the dircection of the turtle's head,
+right(160)  # in this case, i need to change the dircection of the turtle's head,
 #setting the angle at -45° on the x axis
 # so it can draw the diagonal from top left corner to botton right corner.
 pendown()
-forward(330)
+forward(335)
 circle(10,180)
-forward(330)
+forward(335)
 circle(10,180)
 end_fill()
 penup()
