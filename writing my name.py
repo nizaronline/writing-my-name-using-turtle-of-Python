@@ -16,8 +16,7 @@ penup()
 
 
 # drawing the letter N, first part
-# moving the turtle to a start point, located at the left edge of the screen
-goto (-300,0)
+goto (-300,0) # moving the turtle to a start point, located at the left edge of the screen
 pendown() # order the turtle to trace
 begin_fill() # filling the future drawing after closing lines
 forward (300) # tracing a straight vertical line from the botton to to top
@@ -27,7 +26,22 @@ circle(10,180) # drawing the half of circle in order to close the drawing
 end_fill() #filling the drawing after the lines have been closed
 penup() # ordering the turtle to not to draw
 
-clearscreen() #just trying this method 
+# drawing the letter N, second part
+goto (-300,300) # moving the turtle to th top part so it starts drawing from there
+
+begin_fill()
+right(135)  # in this case, i need to change the dircection of the turtle's head,
+#setting the angle at -45° on the x axis
+# so it can draw the diagonal from top left corner to botton right corner.
+pendown()
+forward(275)
+circle(10,180)
+forward(275)
+circle(10,180)
+end_fill()
+penup()
+
+
 
 
 
