@@ -50,7 +50,7 @@ penup()
 
 # drawing the letter N, third part
 goto (-180,0) # moving the turtle to th top part so it starts drawing from there
-heading(0)  # change the direction of the turtle's head, to make the head towards north
+setheading(0)  # change the direction of the turtle's head, to make the head towards north
 begin_fill()
 pendown()
 forward(300)
