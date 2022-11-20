@@ -34,9 +34,9 @@ right(155)  # in this case, i need to change the dircection of the turtle's head
 #setting the angle at -45° on the x axis
 # so it can draw the diagonal from top left corner to botton right corner.
 pendown()
-forward(325)
+forward(330)
 circle(10,180)
-forward(275)
+forward(330)
 circle(10,180)
 end_fill()
 penup()
