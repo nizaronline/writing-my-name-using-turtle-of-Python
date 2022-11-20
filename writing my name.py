@@ -10,7 +10,7 @@ screen.title("writing my name")
 
 # defining the turtle as the object which makes the drawing
 color("black")
-speed(1)
+speed(0.1)
 mode("logo")
 penup()
 
@@ -35,23 +35,30 @@ right(157.5)  # in this case, i need to change the dircection of the turtle's he
 # so it can draw the diagonal from top left corner to botton right corner.
 pendown()
 forward(330)
+
+print(position())# i need this command to get the exact position of the turtle at the end of the execution of the previous command
+# this helps me to set the right position or angle for next orders.
+print(heading()) #get the angle of the head
 circle(10,180)
+print(position())
+print(heading())
+
 forward(330)
 circle(10,180)
 end_fill()
 penup()
 
-# drawing the letter N, third part
-goto (-315,300) # moving the turtle to th top part so it starts drawing from there
-right(22.5)  # change the direction of the turtle's head, to make the head towards north
-begin_fill()
-pendown()
-forward(300)
-circle(10,180)
-forward(300)
-circle(10,180)
-end_fill()
-penup()
+### drawing the letter N, third part
+##goto (-315,300) # moving the turtle to th top part so it starts drawing from there
+##right(22.5)  # change the direction of the turtle's head, to make the head towards north
+##begin_fill()
+##pendown()
+##forward(300)
+##circle(10,180)
+##forward(300)
+##circle(10,180)
+##end_fill()
+##penup()
 
 
 
