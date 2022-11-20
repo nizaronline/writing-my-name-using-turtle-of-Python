@@ -13,6 +13,7 @@ color("black")
 speed(2)
 mode("logo") # to make the turtle head to the north, and the postitve angles for counterclockwise rotation
 penup()
+hideturtle()
 
 
 # drawing the letter N, first part
@@ -49,7 +50,7 @@ end_fill()
 penup()
 
 # drawing the letter N, third part
-goto (-180,0) # moving the turtle to th top part so it starts drawing from there
+goto (-170,0) # moving the turtle to th top part so it starts drawing from there
 setheading(0)  # change the direction of the turtle's head, to make the head towards north
 begin_fill()
 pendown()
