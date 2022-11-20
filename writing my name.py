@@ -1,22 +1,22 @@
-# this program is intended to draw my name usin Python and the module turtle
+# this program is intended to draw my name using Python and the module turtle
 
-# importing the module turtle and all its methods
+# importing the module turtle and all of its methods
 from turtle import *
 
-# defining the screen
+# defining the screen an an object
 screen=Screen()
 screen.bgcolor("white")
-screen.title("writing my name")
+screen.title("Writing My Name")
 
 # defining the turtle as the object which makes the drawing
 color("black")
-speed(0.1)
-mode("logo")
+speed(2)
+mode("logo") # to make the turtle head to the north, and the postitve angles for counterclockwise rotation
 penup()
 
 
 # drawing the letter N, first part
-goto (-300,0) # moving the turtle to a start point, located at the left edge of the screen
+goto (-300,0) # moving the turtle to a start point, located at the left bottom region of the screen
 pendown() # order the turtle to trace
 begin_fill() # filling the future drawing after closing lines
 forward (300) # tracing a straight vertical line from the botton to to top
