@@ -41,7 +41,17 @@ circle(10,180)
 end_fill()
 penup()
 
-
+# drawing the letter N, third part
+goto (-315,300) # moving the turtle to th top part so it starts drawing from there
+right(22.5)  # change the direction of the turtle's head, to make the head towards north
+begin_fill()
+pendown()
+forward(300)
+circle(10,180)
+forward(300)
+circle(10,180)
+end_fill()
+penup()
 
 
 
