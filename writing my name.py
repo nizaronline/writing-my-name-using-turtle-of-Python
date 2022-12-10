@@ -138,5 +138,21 @@ penup()
 # drawing the letter A, first part
 
 
+goto (85.00,1.89) # moving the turtle next to the right bottom edge of the letter Z
+setheading(0)   # needed to make calculations of the angle easier
+right (45)
+begin_fill()
+pendown()
+forward(350)
+print(position())  # required to get the position for further drawings
+circle(10,180)
+print(position())  # required to get the position for further drawings
+forward(350)
+circle(10,180)
+end_fill()
+penup()
+
+
+
 
 
