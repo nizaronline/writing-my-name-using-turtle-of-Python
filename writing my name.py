@@ -92,6 +92,8 @@ pendown()
 forward(175)
 print(position())  # required to get the position
 circle(10,180)
+print(position())  # required to get the position
+
 forward(175)
 circle(10,180)
 end_fill()
@@ -102,13 +104,13 @@ penup()
 
 goto (85.00,290.00) # moving the turtle to the right edge of the first part
 setheading(0)   # needed to make calculations of the angle easier
-left(135)
+left(150)
 begin_fill()
 pendown()
-forward(333)
-print(position())  # required to get the position for further drawings
+forward(350)
+##print(position())  # required to get the position for further drawings
 circle(10,180)
-forward(333)
+forward(350)
 circle(10,180)
 end_fill()
 penup()
