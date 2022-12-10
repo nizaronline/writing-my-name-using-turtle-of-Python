@@ -10,7 +10,7 @@ screen.title("Writing My Name")
 
 # defining the turtle as the object which makes the drawing
 color("black")
-speed(2)
+speed(0)
 mode("logo") # to make the turtle head to the north, and the postitve angles for counterclockwise rotation
 penup()
 hideturtle() # it is optinal, just to hide the object to make better animation
@@ -84,13 +84,15 @@ penup()
 
 # drawing the letter Z, first part
 
-goto (-90,300) # moving the turtle to the near field next to the top of the letter I
+goto (-90,280) # moving the turtle to the near field next to the top of the letter I
 setheading(0)
+right(90)
 begin_fill()
 pendown()
-forward(300)
+forward(175)
+print(position())  # required to get the position
 circle(10,180)
-forward(300)
+forward(175)
 circle(10,180)
 end_fill()
 penup()
