@@ -122,17 +122,17 @@ penup()
 # drawing the letter Z, third part
 
 
-goto (-60.-40,0) # moving the turtle to the near field next to the left bottom of the second part
+goto (-90.00,1.89) # moving the turtle to the near field next to the left bottom of the second part
 setheading(0)
 right(90)
 begin_fill()
 pendown()
 forward(175)
 ##print(position())  # required to get the position
-circle(10,180)
+circle(-10,180)
 ##print(position())  # required to get the position
 forward(175)
-circle(10,180)
+circle(-10,180)
 end_fill()
 penup()
 
