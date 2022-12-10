@@ -84,7 +84,7 @@ penup()
 
 # drawing the letter Z, first part
 
-goto (-90,280) # moving the turtle to the near field next to the top of the letter I
+goto (-90,290) # moving the turtle to the near field next to the top of the letter I
 setheading(0)
 right(90)
 begin_fill()
@@ -96,4 +96,21 @@ forward(175)
 circle(10,180)
 end_fill()
 penup()
+
+
+# drawing the letter Z, second part
+
+goto (85.00,290.00) # moving the turtle to the right edge of the first part
+setheading(0)   # needed to make calculations of the angle easier
+left(135)
+begin_fill()
+pendown()
+forward(333)
+print(position())  # required to get the position for further drawings
+circle(10,180)
+forward(333)
+circle(10,180)
+end_fill()
+penup()
+
 
