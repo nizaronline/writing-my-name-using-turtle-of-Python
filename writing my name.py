@@ -69,7 +69,7 @@ penup()
 
 # drawing the letter I
 
-goto (-150,0) # moving the turtle to the near field next the letter N
+goto (-130,0) # moving the turtle to the near field next the letter N
 setheading(0)  # change the direction of the turtle's head, to make the head towards north
 begin_fill()
 pendown()
