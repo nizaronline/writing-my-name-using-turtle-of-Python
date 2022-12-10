@@ -172,5 +172,20 @@ end_fill()
 penup()
 
 
+# drawing the letter A, third part
 
+goto (120,150) # moving the turtle to the near field next to the top of the letter I
+setheading(0)
+right(90)
+begin_fill()
+pendown()
+forward(175)
+##print(position())  # required to get the position
+circle(10,180)
+##print(position())  # required to get the position
+
+forward(175)
+circle(10,180)
+end_fill()
+penup()
 
