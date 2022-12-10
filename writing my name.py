@@ -82,22 +82,22 @@ hideturtle() # it is optinal, just to hide the object to make better animation
 ##
 
 ##
-### drawing the letter Z, first part
-##
-##goto (-90,290) # moving the turtle to the near field next to the top of the letter I
-##setheading(0)
-##right(90)
-##begin_fill()
-##pendown()
-##forward(175)
-####print(position())  # required to get the position
-##circle(10,180)
-####print(position())  # required to get the position
-##
-##forward(175)
-##circle(10,180)
-##end_fill()
-##penup()
+# drawing the letter Z, first part
+
+goto (-90,290) # moving the turtle to the near field next to the top of the letter I
+setheading(0)
+right(90)
+begin_fill()
+pendown()
+forward(175)
+##print(position())  # required to get the position
+circle(10,180)
+##print(position())  # required to get the position
+
+forward(175)
+circle(10,180)
+end_fill()
+penup()
 ##
 ##
 ### drawing the letter Z, second part
@@ -153,6 +153,23 @@ circle(10,180)
 end_fill()
 penup()
 
+
+# drawing the letter A, second part
+
+
+goto (267.92,299.10) # moving the turtle next to the top edge
+setheading(0)   # needed to make calculations of the angle easier
+left(115)
+begin_fill()
+pendown()
+forward(350)
+print(position())  # required to get the position for further drawings
+circle(10,180)
+print(position())  # required to get the position for further drawings
+forward(350)
+circle(10,180)
+end_fill()
+penup()
 
 
 
