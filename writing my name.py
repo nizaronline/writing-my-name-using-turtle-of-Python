@@ -159,7 +159,7 @@ penup()
 
 goto (267.92,299.10) # moving the turtle next to the top edge
 setheading(0)   # needed to make calculations of the angle easier
-left(115)
+right(155)
 begin_fill()
 pendown()
 forward(350)
