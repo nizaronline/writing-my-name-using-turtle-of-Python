@@ -212,13 +212,23 @@ setheading(0)  # change the direction of the turtle's head, to make the head tow
 right (90)
 begin_fill()
 pendown()
-
-
 circle(-82.5,180)
 print(position())  # required to get the position
-
-
 end_fill()
+penup()
 
+# drawing the letter R, third part
 
-forward (50)
+##goto (440,310) # moving the turtle to the bottom  part, next to the edge, so it starts drawing from there
+setheading(0)  # change the direction of the turtle's head, to make the head towards north
+right (155)
+begin_fill()
+pendown()
+forward(200)
+circle(10,180)
+print(position())  # required to get the position
+forward(200)
+circle(10,180)
+end_fill()
+penup()
+
