@@ -157,7 +157,7 @@ penup()
 # drawing the letter A, second part
 
 
-goto (267.92,299.10) # moving the turtle next to the top edge
+goto (247.92,299.10) # moving the turtle next to the top edge
 setheading(0)   # needed to make calculations of the angle easier
 right(155)
 begin_fill()
@@ -174,7 +174,7 @@ penup()
 
 # drawing the letter A, third part
 
-goto (120,150) # moving the turtle to the near field next to the top of the letter I
+goto (170,150) # moving the turtle to the near field next to the top of the letter I
 setheading(0)
 right(90)
 begin_fill()
