@@ -109,9 +109,9 @@ begin_fill()
 pendown()
 
 forward(350)
-print(position())  # required to get the position for further drawings
+##print(position())  # required to get the position for further drawings
 circle(10,180)
-print(position())  # required to get the position for further drawings
+##print(position())  # required to get the position for further drawings
 
 forward(350)
 circle(10,180)
@@ -128,9 +128,8 @@ right(90)
 begin_fill()
 pendown()
 forward(175)
-##print(position())  # required to get the position
+print(position())  # required to get the position
 circle(-10,180)
-##print(position())  # required to get the position
 forward(175)
 circle(-10,180)
 end_fill()
