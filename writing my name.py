@@ -41,7 +41,7 @@ pendown()
 forward(330)
 print(position())   # i need this command to get the exact position of the turtle at the end of the execution of the previous command
                     # this helps me to set the right position or angle for next orders.
-print(heading()) #get the angle of the head
+print(heading())    #get the angle of the head
 circle(10,180)
 print(position())
 print(heading())
@@ -90,9 +90,7 @@ right(90)
 begin_fill()
 pendown()
 forward(175)
-##print(position())  # required to get the position
 circle(10,180)
-##print(position())  # required to get the position
 
 forward(175)
 circle(10,180)
@@ -103,16 +101,12 @@ penup()
 # drawing the letter Z, second part
 
 goto (85.00,305.00) # moving the turtle to the right edge of the first part
-setheading(0)   # needed to make calculations of the angle easier
+setheading(0)       # needed to make calculations of the angle easier
 left(147.5)
 begin_fill()
 pendown()
-
 forward(350)
-##print(position())  # required to get the position for further drawings
 circle(10,180)
-##print(position())  # required to get the position for further drawings
-
 forward(350)
 circle(10,180)
 end_fill()
@@ -147,7 +141,7 @@ pendown()
 forward(330)
 print(position())  # required to get the position for further drawings
 circle(10,180)
-print(position())  # required to get the position for further drawings
+print(position())  
 forward(330)
 circle(10,180)
 end_fill()
@@ -163,9 +157,7 @@ right(155)
 begin_fill()
 pendown()
 forward(330)
-print(position())  # required to get the position for further drawings
 circle(10,180)
-print(position())  # required to get the position for further drawings
 forward(330)
 circle(10,180)
 end_fill()
@@ -181,8 +173,6 @@ begin_fill()
 pendown()
 forward(175)
 circle(10,180)
-##print(position())  # required to get the position
-
 forward(175)
 circle(10,180)
 end_fill()
@@ -198,8 +188,6 @@ setheading(0)  # change the direction of the turtle's head, to make the head tow
 begin_fill()
 pendown()
 forward(310)
-#print(position())  # required to get the position
-
 circle(10,180)
 forward(310)
 circle(10,180)
@@ -210,20 +198,19 @@ penup()
 # drawing the letter R, second part
 
 
-goto (440,310) # moving the turtle to ...
+goto (440,310) 
 setheading(0)
 begin_fill()
 pendown()
+
 backward(20)
 right (90)
 circle(-60,180)
-setheading(0)
-print(position())
-backward(20)
 
+setheading(0)
+backward(20)
 right (90)
 circle(82.5,180)
-#print(position())  # required to get the position
 end_fill()
 penup()
 
@@ -232,15 +219,14 @@ penup()
 
 # drawing the letter R, third part
 
-goto (430.00,160.00) # moving the turtle to the bottom  part, next to the edge, so it starts drawing from there
-setheading(0)  # change the direction of the turtle's head, to make the head towards north
+goto (430.00,160.00) 
+setheading(0)  
 right (155)
 begin_fill()
 pendown()
-forward(200)
+forward(180)
 circle(10,180)
-#print(position())  # required to get the position
-forward(200)
+forward(180)
 circle(10,180)
 end_fill()
 penup()
